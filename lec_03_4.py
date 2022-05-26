@@ -1,4 +1,4 @@
-path = 'C:\_moi\GB\Знакомство с языком Python\Лекции\03\file.txt'
+path = r'C:\_moi\GB\Знакомство с языком Python\Лекции\03\file.txt'
 f = open(path, 'r')
 data = f.read() + ' '
 f.close()
@@ -10,7 +10,7 @@ while data != '':
     numbers.append(int(data[:space_pos]))
     data = data[space_pos+1:]
 
-out[]
+out = []
 for e in numbers:
     if not e % 2:
         out.append((e, e**2))
